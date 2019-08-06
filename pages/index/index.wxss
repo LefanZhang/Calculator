@@ -1,0 +1,66 @@
+.main{
+  height: 1450rpx;
+  width:100%;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: black;
+}
+.screen{
+  background-color: black;
+  border-radius: 10px;
+  width:720rpx;
+  height:100rpx;
+  text-align: right;
+  font-size: 30px;
+  padding-right: 15rpx;
+  margin-top: 100rpx;
+  color: white;
+}
+.button-group{
+  margin-top: 40rpx;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button{
+  background-color: gray;
+  width: 20%;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 50rpx 15rpx;
+  line-height: 40px;
+  color: white;
+}
+.button-orange{
+  background-color: orange;
+  width: 20%;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 50rpx 15rpx;
+  line-height: 40px;
+  color: white;
+}
+.button-gray{
+  background-color: #f0f0f0;
+  width: 20%;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 50rpx 15rpx;
+  line-height: 40px;
+  color: black;
+}
+.long-button{
+  background-color: gray;
+  width: 45%;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 50rpx 15rpx;
+  line-height: 40px;
+  color: white;
+}

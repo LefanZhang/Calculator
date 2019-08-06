@@ -1,0 +1,26 @@
+<view class="main">
+  <view class="screen">
+    {{result}}
+  </view>
+  <view class="button-group">
+    <view class="button-gray" bindtap="clickbutton" id="back">AC</view>
+    <view class="button-gray" bindtap="clickbutton" id="change">+/-</view>
+    <view class="button-gray" bindtap="clickbutton" id="退格">BACK</view>
+    <view class="button-orange" bindtap="clickbutton" id="/">/</view>
+    <view class="button" bindtap="clickbutton" id="7">7</view>
+    <view class="button" bindtap="clickbutton" id="8">8</view>
+    <view class="button" bindtap="clickbutton" id="9">9</view>
+    <view class="button-orange" bindtap="clickbutton" id="*">x</view>
+    <view class="button" bindtap="clickbutton" id="4">4</view>
+    <view class="button" bindtap="clickbutton" id="5">5</view>
+    <view class="button" bindtap="clickbutton" id="6">6</view>
+    <view class="button-orange" bindtap="clickbutton" id="-">-</view>
+    <view class="button" bindtap="clickbutton" id="1">1</view>
+    <view class="button" bindtap="clickbutton" id="2">2</view>
+    <view class="button" bindtap="clickbutton" id="3">3</view>
+    <view class="button-orange" bindtap="clickbutton" id="+">+</view>
+    <view class="long-button" bindtap="clickbutton" id="0">0</view>
+    <view class="button" bindtap="clickbutton" id=".">.</view>
+    <view class="button-orange" bindtap="clickbutton" id="=">=</view>
+  </view>
+</view>
